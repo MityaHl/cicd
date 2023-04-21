@@ -4,5 +4,10 @@ jobs:
   test:
     runs-on: ubuntu-latest
     steps:
-      - name: test-step
+      - name: first-test-step
         run: echo First job
+      - name: second-test-step
+        run: |
+          echo First job 1
+          echo First job 2
+      
